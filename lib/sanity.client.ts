@@ -8,6 +8,6 @@ export const client = createClient({
     projectId,
     dataset: "production",
     useCdn: true,
-    apiVersion: "2022-02-03"
+    apiVersion: 2022-02-03
     //ricordarsi di cambiare use cdn?
 })
