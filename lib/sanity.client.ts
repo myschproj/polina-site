@@ -6,8 +6,8 @@ const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION;
 
 export const client = createClient({
     projectId,
-    dataset,
-    apiVersion,
-    useCdn: false,
+    dataset: "production",
+    useCdn: true,
+    apiVersion: "2022-02-03"
     //ricordarsi di cambiare use cdn?
 })
