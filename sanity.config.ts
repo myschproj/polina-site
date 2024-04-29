@@ -11,8 +11,8 @@ export default defineConfig({
   basePath: "/studio",
   name: 'Portfolio23_studio',
   title: 'Portfolio23 - Studio',
-  projectId,
-  dataset,
+  projectId: "sex",
+  dataset: "production",
 
   plugins: [deskTool({
     defaultDocumentNode: getDefaultDocumentNode
