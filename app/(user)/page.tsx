@@ -55,10 +55,12 @@ export default async function HomePage() {
   return (
     <div className="space-y-40 sm:space-y-96 overflow-hidden overscroll-none">
       <Hero />
+      <FeaturedProjectList projects={projects} />
       <About />
       <Experience
         experiences={experiences}
         educations={educations}
+        volunteering={volunteering}
         awards={awards}
       />
       <Contact />
