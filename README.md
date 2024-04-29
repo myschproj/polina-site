@@ -1,1 +1,3 @@
-# polina-site
+# Federico Kratter Thaler - Product & Design System Designer
+
+Description coming soon...
